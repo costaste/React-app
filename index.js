@@ -4,7 +4,7 @@
 
 const logSomething = options => ({
     ...options,
-    anotherOption: 'Jello!'
+    anotherOption: 'Jello!',
 });
 
 const options = logSomething({ one: '1', two: '2' });
