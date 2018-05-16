@@ -1,0 +1,20 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "A tutorial to learn building a React app from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Testing suite: 0 tests\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costaste/React-app.git"
+  },
+  "author": "Stephen Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costaste/React-app/issues"
+  },
+  "homepage": "https://github.com/costaste/React-app#readme"
+}
