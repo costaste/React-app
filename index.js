@@ -1,12 +1,16 @@
-/**
- * index.js
- */
+// import express from 'express';
+// import http from 'http';
 
-const logSomething = options => ({
-    ...options,
-    anotherOption: 'Jello!',
-});
+// // Express app setup
+// const app = express();
 
-const options = logSomething({ one: '1', two: '2' });
+// const server = http.createServer(app);
+// const portNum = 2400;
+// server.listen(portNum);
+// server.on('listening', () => {
+//     console.log('Server is listening on port: ', portNum);
+// });
 
-console.log(options);
+// app.get('*', (req, res) => {
+//     res.end('Hello Express');
+// });
